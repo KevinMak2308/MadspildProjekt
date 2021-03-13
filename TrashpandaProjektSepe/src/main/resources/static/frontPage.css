@@ -1,0 +1,80 @@
+html {
+    background-color: whitesmoke;
+    font-family: Arial;
+}
+
+
+header {
+    text-align: center;
+    font-size: 48px;
+}
+
+body {
+    margin: 0;
+
+}
+
+.navigationBar {
+    overflow: hidden;
+    width: 170px;
+}
+
+.navText {
+    list-style: none;
+    font-weight: bold;
+}
+
+
+.navigationBar a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigationBar a:hover {
+    background-color: darkseagreen;
+    color: black;
+}
+
+.navigationBar a.active {
+    background-color: darkseagreen;
+    color: black;
+}
+
+.section1 {
+    margin: 12px;
+    max-width: 540px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.createLogin {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+    list-style: none;
+}
+
+.createLogin a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.appleFoodWaste {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.textH1 {
+    font-size: 31px;
+
+}
