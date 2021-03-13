@@ -17,6 +17,18 @@ public class Member {
         this.phoneNr = phoneNr;
     }
 
+    @Override
+    public String toString() {
+        return "Member{" +
+                "mail='" + mail + '\'' +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", cvrOrCpr='" + cvrOrCpr + '\'' +
+                ", address='" + address + '\'' +
+                ", phoneNr='" + phoneNr + '\'' +
+                '}';
+    }
+
     public String getMail() {
         return mail;
     }

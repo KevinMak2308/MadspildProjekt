@@ -46,7 +46,7 @@ public class AccountController {
 
     @GetMapping("/overview")
     public String overview(Model model){
-        model.addAttribute("ad1", post);
+        model.addAttribute("ad", post);
         return "overview";
     }
 
