@@ -17,15 +17,19 @@ public AccountController() {
 
 
     @GetMapping("/homepage")
-    public String frontPage() {
-        return "frontpage.html";
+    public String homepage() {
+        return "homepage.html";
     }
 
     @GetMapping("/account")
     public String userLogin(Model model) {
         model.addAttribute("user", member);
-    return "account.html";
+    return "account";
+    }
 
+    @GetMapping("/about")
+    public String about(){
+        return "about";
     }
 
     @GetMapping("/register")
