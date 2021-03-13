@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Overview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <nav class="navigationBar">
+        <ul class="navText">
+            <li><a href="homepage" class="active">Home</a></li>
+            <li><a href="business">Business</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="account">Log Out</a></li>
+            <li><a href="advertisement">Create ad</a></li>
+
+        </ul>
+    </nav>
+</head>
+<body>
+<h1>Overview of Ads</h1>
+<p class="text-success">Price: <span th:text="${ad.price}"> </span></p>
+<p class="text-success">Weight: <span th:text="${ad.weight}"> </span></p>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</body>
+</html>

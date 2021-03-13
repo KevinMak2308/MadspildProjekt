@@ -3,14 +3,14 @@ package group3.dk.controllers;
 public class Post {
     private double price;
     private double weight;
-    private String productType;
-    private Member member;
+    /*private String productType;
+    private Member member;*/
 
-    public Post(double price, double weight, String productType, Member member) {
+    public Post(double price, double weight/*, String productType, Member member*/) {
         this.price = price;
         this.weight = weight;
-        this.productType = productType;
-        this.member = member;
+        /*this.productType = productType;
+        this.member = member;*/
     }
 
     public double getPrice() {
@@ -29,7 +29,7 @@ public class Post {
         this.weight = weight;
     }
 
-    public String getProductType() {
+    /*public String getProductType() {
         return productType;
     }
 
@@ -43,5 +43,5 @@ public class Post {
 
     public void setProfile(Member member) {
         this.member = member;
-    }
+    }*/
 }
