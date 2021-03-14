@@ -3,16 +3,17 @@ html {
     font-family: Arial;
 }
 
+body {
+    margin: 0;
+}
+
+
 
 header {
     text-align: center;
     font-size: 48px;
 }
 
-body {
-    margin: 0;
-
-}
 
 ul {
     list-style-type: none;
@@ -37,7 +38,7 @@ ul {
 
 
 .navigationBar a {
-    float: left;
+    display: block;
     color: black;
     padding: 14px 16px;
     text-decoration: none;
@@ -54,11 +55,8 @@ ul {
     color: black;
 }
 
-.section1 {
-    margin: 12px;
-    max-width: 540px;
-    margin: auto;
-    text-align: center;
+.container {
+
 }
 
 
@@ -76,14 +74,6 @@ ul {
     text-decoration: none;
     font-size: 17px;
 }
-
-.appleFoodWaste {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-
 
 .textH1 {
     font-size: 30px;
