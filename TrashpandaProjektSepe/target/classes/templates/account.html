@@ -6,8 +6,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <nav class="navigationBar">
         <ul class="navText">
-            <li><a href="homepage" class="active">Home</a></li>
+            <li><a href="homepage">Home</a></li>
             <li><a href="about">About</a></li>
+            <li><a href="overview">Browse ads</a></li>
             <li><a href="advertisement">Create ad</a></li>
             <li><a href="homepage">Log Out</a></li>
 
@@ -16,7 +17,7 @@
 </head>
 <body>
 <div class="container">
-<h1  class="textH1"> Member Profile</h1>
+<h1> Member Profile</h1>
 
 <p class="text-success">Email: <span th:text="${user.mail}"> </span></p>
 <p class="text-success">Password: <span th:text="${user.password}"> </span></p>

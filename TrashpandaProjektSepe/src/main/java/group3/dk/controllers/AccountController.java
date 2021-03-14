@@ -13,7 +13,7 @@ public class AccountController {
 
     public AccountController() {
         this.member = new Member("johndoe@mail.dk", "123456", "Jonh Doe", "152694-2646", "gadevej 124", "5020 6275");
-        this.post = new Post(12.95, 123.34);
+        this.post = new Post(4.95, 1.5, "Bananas", member);
     }
 
 

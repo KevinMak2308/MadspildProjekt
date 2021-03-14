@@ -19,14 +19,10 @@ public class Member {
 
     @Override
     public String toString() {
-        return "Member{" +
-                "mail='" + mail + '\'' +
-                ", password='" + password + '\'' +
-                ", name='" + name + '\'' +
-                ", cvrOrCpr='" + cvrOrCpr + '\'' +
-                ", address='" + address + '\'' +
-                ", phoneNr='" + phoneNr + '\'' +
-                '}';
+        return "Name: " + name + " - " +
+                "Mail: " + mail +" - " +
+                "Address: " + address +" - " +
+                "Phone number: " + phoneNr;
     }
 
     public String getMail() {

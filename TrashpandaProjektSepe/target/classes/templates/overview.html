@@ -7,8 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <nav class="navigationBar">
         <ul class="navText">
-            <li><a href="homepage" class="active">Home</a></li>
+            <li><a href="homepage" >Home</a></li>
             <li><a href="about">About</a></li>
+            <li><a href="overview" class="active">Browse ad</a></li>
             <li><a href="advertisement">Create ad</a></li>
             <li><a href="homepage">Log Out</a></li>
 
@@ -17,10 +18,10 @@
 </head>
 <body>
 <h1 class="textH1">Overview of your ads</h1>
-<p class="text-success">Price: <span th:text="${ad.price}"> </span></p>kr.
-<p class="text-success">Weight: <span th:text="${ad.weight}"> </span></p>kg.
-<p class="text-success">Product type: <span th:text="${ad.productType}"> </span></p>
-<p class="text-success">Member: <span th:text="${ad.member}"> </span></p>
+<p class="text-success">Price: <span th:text="${ad.price}"></span> <text>kr.</text></p>
+<p class="text-success">Weight: <span th:text="${ad.weight}"> </span> <text>kg.</text></p>
+<p class="text-success">Product: <span th:text="${ad.productType}"> </span></p>
+<p class="text-success"><span th:text="${ad.member}"> </span></p>
 
 <div class="frontImage-and-download">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
