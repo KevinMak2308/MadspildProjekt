@@ -55,27 +55,8 @@ ul {
     color: black;
 }
 
-.container {
-
-}
-
-
-.createLogin {
-    font-weight: bold;
-    color: black;
-    text-align: center;
-    overflow: hidden;
-    list-style: none;
-}
-
-.createLogin a {
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
 
 .textH1 {
-    font-size: 30px;
+    font-size: 31px;
 
 }
